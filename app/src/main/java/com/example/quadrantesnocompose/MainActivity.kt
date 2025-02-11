@@ -16,7 +16,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -25,11 +24,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import com.example.quadrantesnocompose.ui.theme.QuadrantesNoComposeTheme
-
-val color1 = Color(0xFFEADDFF)
-val color2 = Color(0xFFD0BCFF)
-val color3 = Color(0xFFB69DF8)
-val color4 = Color(0xFFF6EDFF)
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -126,9 +120,10 @@ fun Screen(){
 }
 
 @Composable
-fun Quadrant(title: String = "Title",
+fun Quadrant(modifier: Modifier = Modifier,
+             title: String = "Title",
              msg: String = "Message",
-             modifier: Modifier = Modifier) {
+             ) {
 
         Column (
             modifier = Modifier

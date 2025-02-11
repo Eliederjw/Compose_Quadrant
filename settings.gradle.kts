@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Quadrantes no Compose"
+rootProject.name = "Compose Quadrant"
 include(":app")

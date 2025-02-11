@@ -1,4 +1,4 @@
-package com.example.quadrantesnocompose
+package com.example.composequadrant
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -23,16 +23,14 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
-import com.example.quadrantesnocompose.ui.theme.QuadrantesNoComposeTheme
-
-//Teste
+import com.example.composequadrant.ui.theme.ComposeQuadrantTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            QuadrantesNoComposeTheme {
+            ComposeQuadrantTheme {
                 Surface (modifier = Modifier.fillMaxSize()) {
                     Screen()
                 }
@@ -153,7 +151,7 @@ fun Quadrant(modifier: Modifier = Modifier,
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    QuadrantesNoComposeTheme {
+    ComposeQuadrantTheme {
         Screen()
     }
 }

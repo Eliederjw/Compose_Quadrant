@@ -1,4 +1,4 @@
-package com.example.quadrantesnocompose
+package com.example.composequadrant
 
 import org.junit.Test
 

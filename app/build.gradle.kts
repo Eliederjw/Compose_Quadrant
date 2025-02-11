@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.quadrantesnocompose"
+    namespace = "com.example.composequadrant"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.quadrantesnocompose"
+        applicationId = "com.example.composequadrant"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

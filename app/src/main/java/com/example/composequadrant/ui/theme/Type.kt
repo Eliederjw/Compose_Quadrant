@@ -1,4 +1,4 @@
-package com.example.quadrantesnocompose.ui.theme
+package com.example.composequadrant.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

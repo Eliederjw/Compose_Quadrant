@@ -1,3 +1,3 @@
 ## Screenshot
- /Screenshot/Screenshot.PNG
+ (Screenshot do projeto)[/Screenshot/Screenshot.PNG]
  
